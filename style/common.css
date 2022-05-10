@@ -1,0 +1,41 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+    
+
+.main-list{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding-top: 200px;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.list-link{
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-link:hover,
+.list-link:focus{
+    color: #00bfff;
+    transform: scale(1.1);
+}
